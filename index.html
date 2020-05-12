@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset='utf-8'>
+		<title> MagicSquare 12 </title>
+		<!--<script type="module" src="puzzleModules.js"></script> -->
+		<script src="app.js" charset="utf-8"></script>
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+		<body>
+			<div class="main-site">
+				<h1>Magic Square - 12!</h1>
+				<p><i>12 because sum of all rows and columns should be 12. You get the point.
+				See Instructions <a href="#instructions">here</a>.</i></p>
+				
+				<section class="game-section">
+							<div class="game-board">
+								<table border="4">
+									<tr class="row1">
+										<td class="row1col1"> <input type="text" id="r1c1" name="row1col1" maxlength="1" min="0" max="8" > </td>
+										<td class="row1col2"> <input type="text" id="r1c2" name="row1col2" maxlength="1" min="0" max="8"> </td>
+										<td class="row1col3"> <input type="text" id="r1c3" name="row1col2" maxlength="1" min="0" max="8"></td>
+									</tr>
+									
+									<tr class="row2">
+										<td class="row2col1"> <input type="text" id="r2c1" name="row2col1" maxlength="1" min="0" max="8"></td>
+										<td class="row2col2"> <input type="text" id="r2c2" name="row2col2" maxlength="1" min="0" max="8"></td>
+										<td class="row2col3"> <input type="text" id="r2c3" name="row2col3" maxlength="1" min="0" max="8"></td>
+									</tr>
+									
+									<tr class="row3">
+										<td class="row3col1"> <input type="text" id="r3c1" name="row3col1" maxlength="1" min="0" max="8"></td>
+										<td class="row3col2"> <input type="text" id="r3c2" name="row3col2" maxlength="1" min="0" max="8"></td>
+										<td class="row3col3"> <input type="text" id="r3c3" name="row3col3" maxlength="1" min="0" max="8"></td>
+									</tr>
+								</table>
+								
+								
+							</div>
+							<div class="buttons">
+								<button class="submit-btn" onclick="puzzle()"> Submit </button>
+								<button class="new-game-btn"> <a href="index.html">New Game</a>  </button>
+							</div>
+					</section>
+				<section id="instructions" class="instructions">
+							<h2>Instructions</h2>
+							<ul>Here are the conditions:
+								<li>Fill all the boxes (Rows & Columns) with only numbers from <b>0-8</b>.</li>
+								<li>All boxes must be filled with a number.</li>
+								<li>Do not repeat any number!</li>
+								<li>The sum of <b>each</b> row & <b>each</b> column must be equal to 12.</li>
+							</ul>
+
+							<h3>Don't forget to have fun!!!</h3>			
+					</section>
+
+
+			
+				<div class="container">
+						<p> Check out my <a href="www.github.com/iamifechi">[ GitHub ]</a>
+						</div>
+				</div>		
+		</body>
+</html>
